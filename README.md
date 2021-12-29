@@ -23,3 +23,38 @@ Open `nvim` and enter the following:
 :checkhealth
 ```
 
+## Plugins 
+
+- look at [pluings.lua](lua/user/plugins.lua) for list of plugins installed by default.
+
+## Keybindings
+
+important keys to know in order to utilize all functions.
+
+read:
+
+- [keymaps.lua](./lua/user/keymaps.lua)
+- [whichkey.lua](./lua/user/whichkey.lua) 
+
+```
+# "leader" key is 'space'
+
+# search
+ctrl+f - find file
+ctrl+F - grep
+
+# files 
+open = use search, enter on file opens new buffer.
+close = :dw on cli, or <leader>+c to "close" buffer.
+
+# key lookup
+press leader key i.e. 'space' to open keymap menu.
+
+# browser sidebar
+press leader + e 
+
+# navigate windows
+shift + h = scroll buffers left
+shift + l = scroll buffers right
+```
+
